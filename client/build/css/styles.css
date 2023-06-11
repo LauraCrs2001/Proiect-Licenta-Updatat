@@ -1,0 +1,1087 @@
+#home-header {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    margin: 5rem auto 15px 220px;
+    height: auto;
+}
+
+.baraSus{
+    padding-bottom: 0;
+}
+
+body{
+    display: flex;
+    background-color:rgba(240, 128, 128, 0.651);
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+}
+
+header{
+    height: 70px;
+    background-color:rgb(109, 27, 65);
+    position: fixed;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
+    background-color:rgba(109, 27, 65) !important;
+}
+.searchBar{
+    display: flex;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.search_backgroud{
+    background-color:rgba(240, 128, 128, 0.651);
+    --bs-border-color: black;
+    
+}
+
+.logo{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.logo1{
+    margin-left: 4px;
+    font-size: 25px;
+}
+
+aside{
+    display: block;
+    width: 190px;
+    height: 100vh;
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(109, 27, 65, 0.945), rgba(59, 11, 104, 0.767));
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+aside a {
+    display: block;
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 25px;
+    transition: all 0.3s;
+}
+
+aside a:hover{
+    color: pink;
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+.subMeniuCategorii {
+    display: block;
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 45px;
+    transition: all 0.3s;
+} 
+
+.subMeniuCategorii:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    color:pink
+}
+
+aside div.subMeniu a:hover {
+    background-color: rgba(183, 0, 255, 0.432)
+}
+
+
+aside a.active > div.subMeniu {
+    display: block;
+}
+
+p{
+    line-height: 150%;
+    border-left: 6px solid black;
+    padding-left: 12px;
+    margin-bottom: 15px;
+}
+
+.col-8{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-top: auto;
+    margin-bottom: 15px;
+    margin-left: 250px;
+    padding-right: all;
+    width: auto;
+}
+
+.galerie{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    display: inline-flex;
+    position: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: all;
+
+}
+
+.galerie img{
+    width: 270px;
+    height: 40vh;
+    object-fit: cover;
+    transition: all 0.3s;
+    margin-left: auto;
+    box-shadow: 20px 20px 34px rgb(109, 27, 65);
+    border: 1px solid rgb(109, 27, 65);
+    border-radius: 4px;
+    
+}
+
+.galerie img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    box-shadow: 10px 10px 54px rgb(129, 17, 69);
+}
+
+.distantaBtnBara {
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.butoaneTab{
+    color: black;
+    transition: 0.3 ease;
+}
+
+.distantaBtnBara:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    color: rgba(128, 128, 128, 0.555);
+}
+/* login si signup*/
+
+.login-singup {
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    margin: 8rem 50% 15px 50%;
+    height: auto;
+    width: auto;
+}
+
+.login-singup h1 {
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: 150;
+  }
+
+.login-singup input {
+    border: 1px;
+    width: 250px;
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+}
+
+.login-singup button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 18px;
+}
+
+.login-singup button:hover {
+    background-color: black;
+    color: white;
+}
+
+.login-singup p {
+    padding-top: 5px;
+}
+
+
+/* Produse pagini */
+
+.produse{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid  rgb(109, 27, 65);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(109, 27, 65);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.produse:hover{
+    box-shadow: 20px 20px 30px rgb(129, 17, 69);
+}
+
+.produse img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.descriere-mica-produs{
+    text-align: start;
+    padding: 10px 0;
+    
+}
+
+.descriere-mica-produs h2{
+    padding-top: 7px;
+    color: black;
+    font-size: 15px;
+}
+
+.descriere-mica-produs i{
+    font-size: 12px;
+    color: rgb(255, 232, 29);
+}
+
+.descriere-mica-produs h3{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+.produse a{
+    display: flex;
+    padding: 10px 10px 10px 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    border-radius: 50px;
+    background-color: rgb(109, 27, 65);;
+    font-weight: 500;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.produse-toate{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#banner-pag-fete {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/portrait-amazed-surprised-little-girl-wearing-striped-shirt-posing-pink-paper-torn-looking-aside-with-open-mouth-big-eyes-copy-space-advertisement-promotional-text_176532-20611.jpg");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-pag-fete h1{
+    color: black;
+    font-size: 40px;
+    margin-left: 400px;
+}
+
+#banner-pag-fete h4{
+    color: black;
+    font-size: 25px;
+    padding: 10px 0;
+    margin-left: 500px;
+}
+
+#banner-pag-fete h4 span{
+    color: red;
+}
+
+#banner-pag-baieti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/shocked-child-making-hole-paper-kid-looks-through-hole-blonde-boy-looks-through-ripped-paper-boy-red-paper-hole-pointing-with-finger-aside-surprised-boy-looking-through-hole-paper-wall_293990-3449.jpg");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-pag-baieti h1{
+    color: black;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner-pag-baieti h4{
+    color: black;
+    font-size: 25px;
+    padding: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner-pag-baieti h4 span{
+    color: white;
+}
+
+#banner-pag-figurine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://i.imgur.com/sivVDn5.jpg");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-pag-figurine h1{
+    color: black;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+#banner-pag-figurine h4{
+    color: black;
+    font-size: 25px;
+    padding: 10px 0;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+#banner-pag-figurine h4 span{
+    color: red;
+}
+
+#banner-pag-plusuri {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://d.furaffinity.net/art/thefoxprince11/1681579583/1681579583.thefoxprince11_img_2543.jpg");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-pag-plusuri h1{
+    color: white;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner-pag-plusuri h4{
+    color: white;
+    font-size: 25px;
+    padding: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner-pag-plusuri h4 span{
+    color: red;
+}
+
+#banner-pag-accesorii {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://t4.ftcdn.net/jpg/03/51/22/75/360_F_351227541_ZDAO5Gc7eDsbzSYLPXtpT02VXWC6drl2.webp");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-pag-accesorii h1{
+    color: black;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner-pag-accesorii h4{
+    color: black;
+    font-size: 25px;
+    padding: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner-pag-accesorii h4 span{
+    color: red;
+}
+
+#nr-pagini{
+    text-align: center;
+}
+
+#nr-pagini a{
+    display: inline-flex;
+    text-decoration: none;
+    background-color: palevioletred;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: black;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+/* Pagina Principala */
+
+.avantaje{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.avantaje-casute img{
+    width: 150px;
+    height: 120px;
+}
+.avantaje-casute{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(109, 27, 65);
+    border: 1px solid rgb(109, 27, 65);
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.avantaje-casute:hover{
+    box-shadow: 10px 10px 54px rgb(129, 17, 69);
+}
+
+.avantaje-casute h4{
+    display: inline block;
+    padding: 9px 8px 6px 8px;
+    line-height: 0.9;
+    border-radius: 4px;
+    color: rgb(109, 27, 65);
+    background-color: lightpink;
+    margin-top: 20px;
+}
+.avantaje-casute:nth-child(2) h4{
+    background-color: palevioletred;
+}
+
+.avantaje-casute:nth-child(3) h4{
+    background-color: plum;
+}
+
+.avantaje-casute:nth-child(4) h4{
+    background-color: rgba(212, 35, 71, 0.822);
+}
+
+.avantaje-casute:nth-child(5) h4{
+    background-color: darksalmon;
+}
+
+.avantaje-casute:nth-child(6) h4{
+    background-color: rgb(228, 126, 173);
+}
+
+.home-h6{
+    font-size: 46px;
+    line-height: 54px;
+    margin: 0px auto 20px auto;
+    display: center;
+    position: relative;
+    text-shadow: 10px 10px 10px rgb(129, 17, 69);
+}
+
+.home-h2{
+    font-size: 50px;
+    line-height: 54px;
+    margin: 0px auto 20px auto;
+    display: center;
+    position: relative;
+    text-shadow: 10px 10px 10px rgb(129, 17, 69);
+}
+
+.home-h3{
+    font-size: 40px;
+    line-height: 25px;
+    margin: 0px auto 20px auto;
+    display: center;
+    position: relative;
+}
+
+.text-banner{
+    margin: 40px 0;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/id/1254740889/photo/banner-with-frame-made-of-stationery-on-a-pink-pastel-background.jpg?s=170667a&w=0&k=20&c=8CeiTkgb2BwXSuK5wG_DM8mvf97lx3iEsx_hG_oExpA=");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: 190px;
+}
+
+#banner h2{
+    color: black;
+    font-size: 20px;
+}
+
+#banner h5{
+    color: black;
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+#banner h5 span{
+    color: red;
+}
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: palevioletred;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+
+}
+
+#banner button:hover{
+    background: plum;
+    color: black;
+}
+
+  /* Pagina Produs */
+
+#prod-detalii{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 5px;
+}   
+
+#prod-detalii .poze{
+    width: 40%;
+    margin-right: 50px;
+} 
+
+.poze-mici{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.poze-mici-col{
+    flex-basis: 24%;
+    cursor: pointer;
+
+}
+
+
+#prod-detalii .detalii-produs{
+    width: 50%;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+#prod-detalii .detalii-produs h1{
+    font-size: 26px;
+}
+#prod-detalii .detalii-produs p{
+    border-left: none;
+    font-size: 30px;
+}
+
+#prod-detalii .detalii-produs select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background-color: palevioletred;
+    border: 2px solid rgb(109, 27, 65);
+    border-radius: 4px;
+}
+
+#prod-detalii .detalii-produs input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 2px solid rgb(109, 27, 65);
+    border-radius: 4px;
+}
+
+#prod-detalii .detalii-produs input:focus{
+    outline: none;
+}
+
+#prod-detalii .detalii-produs button{
+    font-size: 20px;
+    width: 250px;
+    border: 2px solid rgb(109, 27, 65);
+    border-radius: 4px;
+}
+
+#prod-detalii .detalii-produs h2{
+    font-size: 15px;
+}
+
+.produss h4{
+    font-size: 46px;
+    line-height: 54px;
+    margin: 20px auto 20px auto;
+    display: center;
+    position: relative;
+    text-shadow: 10px 10px 10px rgb(129, 17, 69);
+}
+
+.produss .produse-random{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid  rgb(109, 27, 65);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(109, 27, 65);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.produss .produse-random:hover{
+    box-shadow: 20px 20px 30px rgb(129, 17, 69);
+}
+
+.produse-random img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.produss a{
+    display: flex;
+    padding: 10px 10px 10px 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    border-radius: 50px;
+    background-color: rgb(109, 27, 65);;
+    font-weight: 500;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.random{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* Pagina Contact */
+
+#banner-pag-contact {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align:start;
+    background-image: url("https://www.vlplawgroup.com/wp-content/uploads/2015/01/contact-banner.jpg");
+    width: 180%;
+    height: 30vh;
+    background-size: cover;
+    background-position:center;
+    margin-left: -30px;
+}
+
+#banner-pag-contact h1{
+    color: black;
+    font-size: 50px;
+}
+
+#banner-pag-contact h4{
+    color: black;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner-pag-contact h4 span{
+    color: white;
+}
+
+#detalii-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    width: 900px;
+}
+
+#detalii-contact .detalii{
+    width:300%;
+}
+
+#detalii-contact .harta {
+    width: 200%;
+    height: 400px;
+    max-width: 700px;
+    margin-top: 30px;
+
+}
+#detalii-contact .harta iframe{
+    width: 170%;
+    height: 100%;
+}
+
+#form-detalii{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    box-shadow: 30px 20px 34px rgb(109, 27, 65);
+    border: 1px solid rgb(109, 27, 65);
+    border-radius: 4px;
+    width: 1500px;
+    align-items: start;
+    
+}
+
+#form-detalii:hover{
+    box-shadow: 20px 10px 54px rgb(184, 27, 100);
+}
+
+#form-detalii form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-detalii form input,
+#form-detalii form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+#form-detalii form button:hover{
+    background: plum;
+    color: black;
+}
+
+#form-detalii .informatii{
+    width: 50%;
+    font-size: 25px;
+}
+
+/* Pagina de cos */
+
+#banner-pag-cos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    background-image: url("https://img.freepik.com/premium-photo/small-pink-pastel-shopping-cart-white-background-trolley-supermarket-banner-size_44868-1215.jpg?w=2000");
+    width: 561.2%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: -30px;
+}
+
+#banner-pag-cos h1{
+    color: black;
+    font-size: 40px;
+    /* margin-left: 00px; */
+}
+
+
+
+/* Ajustari pentru telefon/tableta */
+@media (max-width: 768px){
+
+    /* Pagina Principala */
+
+    #home-header{
+        position: relative;
+        display: fixed;
+        text-align: left;
+        margin: 5rem auto 15px 10px;
+        height: auto;
+        font-size: 15px;
+    }
+
+    .avantaje{
+        padding: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .avantaje-casute{
+        width: 170px;
+        margin: 0 0 15px 0;
+    }
+
+    .avantaje-casute img{
+        width: 120px;
+        height: 130px;
+    }
+
+    .home-h6{
+        display: flex;
+        position: absolute;
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .home-h2{
+        font-size: 30px;
+    }
+    
+    .home-h3{
+        font-size: 30px;
+    }
+
+    #banner{
+        margin-left: 0;
+    }
+
+    #banner h5{
+        font-size: 30px;
+    }
+
+    [class^="col-"] {
+        width: 100%;
+    }
+
+    main {
+        margin: 0px;
+        padding: 10px 15px 20px 15px;
+    }
+
+    aside {
+        display: none;
+        height: auto;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 25px;
+
+    }
+
+    .col-8{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .galerie{
+        margin-top: 5px;
+    }
+
+    /* Pagini categorii */
+    
+    .produse{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #banner-pag-baieti{
+        margin-left: -10px;
+        width: 400px;
+        margin-top: -25px;
+    }
+
+    #banner-pag-figurine{
+        margin-left: -10px;
+        width: 400px;
+        margin-top: -25px;
+    }
+
+    #banner-pag-figurine h1{
+        margin-left: 70px;
+    }
+
+    #banner-pag-figurine h4{
+        margin-left: 0px;
+    }
+
+
+    #banner-pag-plusuri{
+        margin-left: -10px;
+        width: 400px;
+        margin-top: -25px;
+    }
+
+    #banner-pag-plusuri h1{
+        margin-top: -10px;
+        color: plum;
+    }
+
+    #banner-pag-plusuri h4{
+        margin-left: 0px;
+        color: plum;
+    }
+
+    #banner-pag-plusuri h4 span{
+        color: white;
+    }
+
+    #banner-pag-accesorii{
+        margin-left: -10px;
+        width: 400px;
+        margin-top: -25px;
+    }
+
+    #banner-pag-accesorii h1{
+        margin-left: 5px;
+    }
+
+    #banner-pag-fete{
+        margin-left: -10px;
+        width: 400px;
+        margin-top: -25px;
+    }
+
+    #banner-pag-fete h1{
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    #banner-pag-fete h4{
+        margin-left: 10px;
+    }
+
+    /* Pagina Produs */
+
+    #prod-detalii {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prod-detalii .poze{
+        width: 100%;
+        margin-left: -7px;
+    } 
+
+    #prod-detalii .detalii-produs {
+        width: 100%;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+
+    /* Pagina contact */
+    #banner-pag-contact{
+        margin-left: -10px;
+        width: 44%;
+    }
+
+    #detalii-contact {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-top: 10px;
+        align-items: start;
+    }
+
+    #detalii-contact.detalii{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    #detalii-contact .harta{
+        width: 25%;
+        height: 300px;
+        margin-top: 30px;
+        margin-left: -8px;
+    }
+
+    #form-detalii{
+        margin: 10px;
+        padding: 30px 10px;
+        flex-direction: column;
+        width: 360px;
+    }
+
+    #form-detalii form{
+        width: 200%;
+        margin-bottom: 30px;
+    }
+
+    #form-detalii form input,
+    #form-detalii form textarea{
+        width: 50%;
+    }
+
+    #form-detalii .informatii{
+        width: 100%;
+        font-size: 17px;
+    }
+}
